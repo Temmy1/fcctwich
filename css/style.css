@@ -1,0 +1,87 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font: 16px/1.2 serif;
+}
+header {
+  background-color: #4b367c;
+  color: #f1f1f1;
+  padding: 10px;
+}
+section {
+  margin: 0 15%;
+  padding: 2% 0 2% 0;
+ 
+}
+.online {
+  color: #333;
+}
+.offline {
+  color: #b00000;
+}
+.channel-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 0 2% 0;
+  border-bottom: 1px solid #4b367c;
+}
+.channels-name {
+  flex: 1 1 auto;
+}
+.details {
+  flex: 0 1 60%;
+  /*margin-left: 20px;*/
+}
+footer {
+  
+}
+
+/*--- TEXT ---*/
+h1 {
+  font: bold 2em/1.2 serif;
+  margin: 0;
+}
+.status {
+  font: 1.1em/1.2 cursive;
+}
+p {
+  font-family: sans-serif;
+  margin: 0 10px 0 10px;
+}
+/*--- LIST ---*/
+nav {
+  margin-top: 3%;
+}
+ul {
+  margin: 0;
+}
+li{
+  list-style: none;
+  display: inline;
+  margin-right: 2%;
+  padding: 0 1%;/* ??? */
+}
+li:last-child { /*нужно ли?*/
+  margin:0;
+}
+li:hover {
+  color: #ffd800; 
+  cursor: pointer;
+}
+/*--- ICONS ---*/
+img {
+  height: 45px;
+  border-radius: 50%;
+  flex: 0 1 auto;
+  
+}
+/*--- Links ***-*/
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
